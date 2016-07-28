@@ -4,9 +4,20 @@
 Cold Receiving API
 ********************************************************************************
 
-Hello
+Address Txs
+-----------
 
-Hello
-================================================================================
-Hello
+    **GET /api/v1/open/address/** *(str: address)* **/tx**
+
+        Returns all txs for specific address.
+
+        **Example response**::
+
+            {
+            }
+
+        **Parameters**:
+            * ``address`` *(required)* *(str)* - specific address.
+
+        .. note:: You can use this API to monitoring all your Cold Receiving addresses.
 
