@@ -4,9 +4,13 @@
 General Usage
 ********************************************************************************
 
-Hello
+How to use ChainCloud API?
 
-Hello
+Access Method
 ================================================================================
-Hello
+
+API domain: **chaincloud-api.getcai.com** (in the future: api.chaincloud.com)
+
+All API should be accessed with **token** (in HTTP header), and you can apply for your API token `here <https://bitcoin.org>`_.
+
 
