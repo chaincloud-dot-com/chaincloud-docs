@@ -3,8 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ChainCloud's documentation!
+ChainCloud Documentation
 ======================================
+
+..  image:: img/chaincloud-logo.png
+..   :height: 512px
+..   :width: 512px
+   :scale: 50 %
+   :alt: chaincloud-logo
+   :align: center
+
+The ChainCloud Platform connects your website or application with the most popular BlockChain assets!
 
 Contents:
 
