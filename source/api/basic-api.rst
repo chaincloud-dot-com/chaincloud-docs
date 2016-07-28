@@ -96,7 +96,7 @@ Tx List
 Tx Detail
 ---------
 
-    **GET /api/v1/open/tx/detail** *(str: tx_hash)*
+    **GET /api/v1/open/tx/detail/** *(str: tx_hash)*
 
         Returns tx details for specific tx.
 

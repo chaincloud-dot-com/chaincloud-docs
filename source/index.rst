@@ -6,10 +6,10 @@
 ChainCloud Documentation
 ======================================
 
-..  image:: img/chaincloud-logo.png
-   :height: 512px
-   :width: 512px
-   :scale: 50 %
+..  image:: img/chaincloud-logo.jpg
+   :height: 256px
+   :width: 256px
+   :scale: 100%
    :alt: chaincloud-logo
    :align: center
 
