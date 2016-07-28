@@ -13,7 +13,9 @@ ChainCloud Documentation
    :alt: chaincloud-logo
    :align: left
 
+
 The ChainCloud Platform connects your website or application with the most popular BlockChain assets!
+
 
 Contents:
 
