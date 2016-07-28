@@ -9,8 +9,20 @@ All basic APIs.
 Time
 ----
 
-HTTP GET `/api/v1/open/time`
+HTTP GET ``/api/v1/open/time``
 
-Response: ::
-	{}
+Response:
+
+::
+    {}
+
+User
+----
+
+HTTP GET ``/api/v1/open/user``
+
+Response:
+
+::
+    {}
 
