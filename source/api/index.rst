@@ -5,7 +5,9 @@ API
 .. toctree::
    :maxdepth: 2
 
-   general-api.rst
+   general-usage.rst
+   basic-api.rst
    cold-receiving-api.rst
    hot-sending-api.rst
+   report-api.rst
 

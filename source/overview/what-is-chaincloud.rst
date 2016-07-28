@@ -4,7 +4,7 @@
 What is ChainCloud?
 ################################################################################
 
-ChainCloud - Cloud Your Chain!
+ChainCloud is a platform that can help you to connect your website or application with the most popular blockchain assets (Bitcoin, Ethereum, Litecoin, Dogecoin and so on).
 
 ================================================================================
 Hello
