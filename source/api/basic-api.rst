@@ -21,11 +21,30 @@ Time
 User
 ----
 
-HTTP GET ``/api/v1/open/user``
+    **GET /api/v1/open/user**
 
-Response:
+        Returns Current User's Information.
 
-::
+        **Example response**::
 
-    {}
+            {
+            }
+
+Address
+-------
+
+    **GET /api/v1/open/address/batch** *(int: batch)*
+
+        Returns a batch of receiving addresses.
+
+        **Example response**::
+
+            {
+            }
+
+        **Parameters**:
+            * ``batch`` *(required)* *(int)* - batch no.
+
+        .. note:: batch no begins from 0, and each batch has 1,000 addresses (address index begins from 0 too).
+
 
