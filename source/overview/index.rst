@@ -5,5 +5,5 @@ Overview
 .. toctree::
    :maxdepth: 2
 
-   what-is-ethereum.rst
-   how-to-use-this-guide.rst
+   what-is-chaincloud.rst
+   architecture.rst
