@@ -8,6 +8,9 @@ All basic APIs.
 
 Time
 ----
+.. note::
+    Only for a test!
+
 .. http:get::  /api/v1/open/time/
 
     Get current server time.
