@@ -35,7 +35,7 @@ Address Batch
 
     **GET /api/v1/open/address/batch/** *(int: batch_no)*
 
-        Returns a batch of receiving addresses.
+        Returns a batch of receiving addresses. You should use this API to retrieve addresses (both Cold Receiving and Hot Sending) each time for a batch, and after that you should use V Device to verify the data of this batch.
 
         **Example response**::
 
@@ -63,5 +63,49 @@ Address History
             * ``path`` *(required)* *(int)* - path for receiving or change addresses.
 
         .. note:: path 0 means receiving addresses, and path 1 means change addresses.
+
+Address Next
+------------
+
+    **GET /api/v1/open/address/next**
+
+        Returns next unused receiving address.
+
+        **Example response**::
+
+            {
+            }
+
+Tx List
+-------
+
+    **GET /api/v1/open/tx**
+
+        Returns all related txs, and support pages.
+
+        **Example response**::
+
+            {
+            }
+
+        **Arguments**:
+            * ``tx_hash`` *(optional)* *(str)* - from which tx_hash to retrieve txs.
+
+        .. note:: txs are ordered by tx_time in desc. if tx_hash is not provided, it means to retrieve the latest 20 txs. if provided, then returns 20 txs since this tx_hash.
+
+Tx Detail
+---------
+
+    **GET /api/v1/open/tx/detail** *(str: tx_hash)*
+
+        Returns tx details for specific tx.
+
+        **Example response**::
+
+            {
+            }
+
+        **Parameters**:
+            * ``tx_hash`` *(required)* *(str)* - for which tx_hash to retrieve tx detail.
 
 
