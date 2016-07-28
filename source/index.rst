@@ -11,7 +11,7 @@ ChainCloud Documentation
    :width: 512px
    :scale: 50 %
    :alt: chaincloud-logo
-   :align: center
+   :align: left
 
 The ChainCloud Platform connects your website or application with the most popular BlockChain assets!
 
