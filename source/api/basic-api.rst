@@ -9,12 +9,14 @@ All basic APIs.
 Time
 ----
 
-HTTP GET ``/api/v1/open/time``
+    **GET /api/v1/open/time**
 
-Response:
+        Returns Server Time.
 
-::
-    {}
+        **Example response**::
+
+            {
+            }
 
 User
 ----
@@ -24,5 +26,6 @@ HTTP GET ``/api/v1/open/user``
 Response:
 
 ::
+
     {}
 
