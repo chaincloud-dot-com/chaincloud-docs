@@ -4,19 +4,19 @@
 What is V Device?
 ********************************************************************************
 
-我们可以把 V 设备看成是一个企业可用的 “两阶段验证” （2-Step Verification）设备。
+V Device is like a "2-Step Verification" Device for you.
 
-V 设备是一个运行着 ChainCloud-V 应用的安卓设备，ChainCloud-V 是我们提供给用户的、开源的数据验证应用程序。通过使用 ChainCloud-V，您可以在 V 设备和 ChainCloud 平台的 HSM-Cold 设备之间建立起一条安全的数据通道（数据通道的校验码是通过 SMS 短信系统来传输的），在通道上传递的所有数据都会被 V 设备和 ChainCloud 平台的 HSM-Cold 设备所验证，验证失败则会关闭通道并将警报信息发送给管理员，以确保系统的绝对安全。
+V Device is an Android device running with ChainCloud-V (an Open Source App developped by us). With this App, you can establish a secured channel between your V Device and ChainCloud's HSM-Cold Device with SMS. All data transfered on this channel should be verified to ensure the security.
 
-V 设备和 ChainCloud 平台 的 HSM-Cold 设备之间会进行如下的数据校验：
+There are two different verifications between V Device and ChainCloud HSM-Cold Device:
 
-* 企业网站或 Web 服务所发起的所有的热钱包发币请求都需要经过 V 设备来对数据进行签名，签名会与请求的数据一同经过 ChainCloud API 到 HSM-Hot 设备，再到 HSM-Cold 设备，然后在 HSM-Cold 设备会对签名进行验证，签名有效，HSM-Cold 才会发送进行后续的交易请求处理工作，如果签名不符（不是 V 设备签出的），则 HSM-Cold 会关闭该企业的热钱包服务，并发送警报信息给管理员；
-* 企业网站或 Web 服务会向 ChainCloud API 来请求 冷收款/热发款 的地址，并将请求的地址用于自己的业务逻辑中，其中所请求到的每一个批次的地址（1000个地址/批次），都可以使用 V 设备与 HSM-Cold 设备之间建立的通道来进行验证，企业应确保只使用验证过的地址，以确保万无一失（即便是 ChainCloud API 的服务器被黑了，由于签名验证是由冷设备来提供的，仍然是安全的）；
+* All Hot-Sending requests (from your website/service) shoud be signed by your V Device, and the signature will pass through ChainCloud API to HSM-Hot Device, and then to HSM-Cold Device. After that, the HSM-Cold Device will verify the signature with data. If the signature is correct, HSM-Cold will acknowlege the Hot-Sending request, otherwise, it will close the channel and notify the administrator.
+* When you request the Cold-Receiving/Hot-Sending addresses from ChainCloud API, and plan to use these addresses in your business logic, you can verify each batch of these addresses (1000 address per batch) with the security channel between V Device and HSM-Cold devices. You should verify all addresses before use, to protect your blockchain assets.
 
-企业还可以基于 ChainCloud-V 进行二次开发，增加自己定制的安全策略，如：
+You can also develop your own version of ChainCloud-V (because it is Open Source), and add other safe strategies, for example :
 
-* 目的地址限制策略；
-* 发币金额策略；
-* 发币频率策略；
-* 企业网站和 V 设备之间的特殊数据加密策略；
+* Limitation of destination addresses;
+* Strategies of sending amount;
+* Strategies of sending frequency;
+* Special encryption strategy between your website/service and your V Device;
 
