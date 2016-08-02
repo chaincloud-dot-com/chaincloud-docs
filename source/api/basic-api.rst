@@ -27,7 +27,20 @@ User
 
         **Example response**::
 
-            {"can_otc_ad": 0, "user_id": 40000, "gender": 0, "user_type": 4, "real_name": null, "token": "f3dfe0b3449373910dc25f99c5b47844b08e98c80ee8c9912d58c3155556d05f", "receiving_index": 1, "avatar": null, "register_at": "2016-07-11T14:19:55", "address": "1Mzvo2UkBnEpQC8xkui23mYQQeL8NREqrJ", "balance": 60000, "user_name": "bitpie-hot-40000", "can_otc_order": 0}
+            {
+              "can_otc_ad": 0,
+              "user_id": 40000,
+              "gender": 0,
+              "user_type": 4,
+              "real_name": null,
+              "receiving_index": 1,
+              "avatar": null,
+              "register_at": "2016-07-11T14:19:55",
+              "address": "1Mzvo2UkBnEpQC8xkui23mYQQeL8NREqrJ",
+              "balance": 60000,
+              "user_name": "bitpie-hot-40000",
+              "can_otc_order": 0
+            }
 
 Address Batch
 -------------
