@@ -4,7 +4,7 @@
 Architecture
 ********************************************************************************
 
-Architecture
+Dialog
 ================================================================================
 
 ..  image:: ../img/chaincloud-architecture.jpg
@@ -13,4 +13,13 @@ Architecture
    :scale: 100%
    :alt: chaincloud-architecture
    :align: center
+
+HSM
+===============================================================================
+
+HSM means Hardware Security Machine. We have specially designed two HSM models to construct unbreakable secured blockchain cloud platform:
+
+* HSM-Hot Model
+
+* HSM-Cold Model
 
