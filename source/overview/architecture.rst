@@ -7,7 +7,7 @@ Architecture
 Architecture
 ================================================================================
 
-..  image:: img/chaincloud-architecture.jpg
+..  image:: ../img/chaincloud-architecture.jpg
    :height: 682px
    :width: 612px
    :scale: 100%
