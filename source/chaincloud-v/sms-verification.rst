@@ -4,7 +4,7 @@
 SMS Verification
 ********************************************************************************
 
-V-Device can interact verifaction data with ChainCloud's HSM-Cold Module through SMS messages.
+V-Device can interact verifaction data with ChainCloud's HSM-Cold through SMS messages.
 
 Hello
 ================================================================================

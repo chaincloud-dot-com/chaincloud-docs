@@ -17,9 +17,9 @@ Diagram
 HSM
 ===============================================================================
 
-HSM means Hardware Security Module. We have specially designed two HSM models to construct unbreakable secured blockchain cloud platform:
+HSM means Hardware Security Module. We have specially designed two HSM modules to construct unbreakable secured blockchain cloud platform:
 
-* HSM-Hot Model
+* HSM-Hot
 
-* HSM-Cold Model
+* HSM-Cold
 
