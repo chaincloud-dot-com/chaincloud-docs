@@ -14,6 +14,7 @@ Hot Sending Tx Request
         **Example response**::
 
             {
+                "result": true
             }
 
 Hot Sending Tx Detail
@@ -26,10 +27,24 @@ Hot Sending Tx Detail
         **Example response**::
 
             {
+                "tx_hash": "897a7eb61ea4e9b5a72afa95573ccdc67d4edb3984509a11316664cb69a18065",
+                "c_id": 2,
+                "user_id": 40000,
+                "send_request": {
+                    "coin_code": "BTC",
+                    "user_tx_no": "8",
+                    "is_dynamic_fee": 1,
+                    "value": 10000,
+                    "address": "1NbbvxBYxGGCBhaM8mow1HFWA7dB5yukmY"
+                },
+                "vc_code": "HxAK9Q4CdcKzypai9Wk4gjYwC8jeuHq9UWunAvyzRbO1a4PyZecmYF0WS5kdtBH80/0EtSETjurHyRctkCFsxVk=",
+                "request_at": "2016-07-31T04:52:13",
+                "hot_wallet_tx_id": 26,
+                "tx_at": "2016-07-31T05:31:07",
+                "hot_wallet_tx_status": 1
             }
 
         **Parameters**:
             * ``user_tx_no`` *(required)* *(int)* - for which user_tx_no to retrieve tx detail.
 
         .. note:: user_tx_no is the unique transaction id in your own system, you should use an auto incremented primary key as user_tx_no.
-
