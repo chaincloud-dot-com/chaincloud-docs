@@ -65,7 +65,7 @@ Address Batch
                     "index": 2,
                     "address": "1n566cWbw6c3KLBJ8X1vvo8vi4G8BMmEV"
                 },
-                ...
+                {"...": "..."},
                 {
                     "index": 997,
                     "address": "1Hc6MffGiYPLJdwAnR42JpTYdGonfWEJ7N"
@@ -124,7 +124,7 @@ Address Next
         **Example response**::
 
             {
-                "index": 1
+                "index": 1,
                 "address": "1Mzvo2UkBnEpQC8xkui23mYQQeL8NREqrJ"
             }
 
