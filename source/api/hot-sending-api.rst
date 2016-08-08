@@ -17,6 +17,21 @@ Hot Sending Tx Request
                 "result": true
             }
 
+        **Parameters**:
+            * ``coin_code`` *(optional)* *(string)* - coin type, for example *(BTC)*.
+            * ``user_tx_no`` *(required)* *(string)* - tx id in vweb.
+            * ``address`` *(required)* *(string)* - transfer to address.
+            * ``value`` *(required)* *(long)* - amount of satoshi.
+            * ``vc_code`` *(required)* *(string)* - the sign of unsigntx.
+            * ``is_dynamic_fee`` *(optional)* *(int)* - whether to charge the dynamic fee.
+            * ``c_id`` *(required)* *(int)* - the channel id of sms to sign.
+
+        .. note::
+            * ``coin_code`` default *(BTC)*.
+            * ``user_tx_no`` unique in vweb.
+            * ``is_dynamic_fee`` 0 no  1 yes  default 1.
+            * ``vc_code`` and ``c_id`` is use to ensure security  .
+
 Hot Sending Tx Detail
 ---------------------
 
