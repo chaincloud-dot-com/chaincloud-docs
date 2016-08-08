@@ -114,8 +114,8 @@ Address History
             * ``since_address`` *(optional)* *(string)* - from which address to list.
 
         .. note::
-            * ``path`` 0 means receiving addresses, and path 1 means change addresses.
-            * ``since_address`` null represents that start from the beginning.
+            ``path`` 0 means receiving addresses, and path 1 means change addresses.
+            ``since_address`` null represents that start from the beginning.
 
 Address Next
 ------------
