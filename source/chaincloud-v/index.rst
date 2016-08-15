@@ -6,5 +6,6 @@ ChainCloud-V
    :maxdepth: 2
 
    what-is-v-device.rst
+   v-device-sample.rst
    sms-verification.rst
 
