@@ -39,3 +39,13 @@ The address pricing model is based on how many addresses used by your business :
     * Actually Hot addresses are not used as much as Cold addresses, because you only need Hot addresses when the fund in Hot wallet is not enough
     * Change addresses are not counted in this pricing model
 
+Others
+================================================================================
+
+Other pricing models :
+
+* 10mBTC for basic information modification
+    * Modify V-Device phone no
+    * Modify Cold-Receiving Settlement HD Account (Bitpie Account)
+* You should buy an Android phone (with 2 sim-cards support), and pay the phone/sms bills yourself.
+
