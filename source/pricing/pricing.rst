@@ -15,7 +15,7 @@ The basic pricing model is designed to scale with your business :
     * Truncate to mBTC
     * Pay only for what you use
     * Real-time fee reporting
-* volume based discounts available
+* Volume based discounts available
     * ChainCloud offers everything needed to run a business at scale
 
 Account Pricing
