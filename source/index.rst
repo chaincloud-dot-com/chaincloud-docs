@@ -23,6 +23,7 @@ Contents:
    overview/index
    api/index
    chaincloud-v/index
+   pricing/index
 
 
 Indices and tables
