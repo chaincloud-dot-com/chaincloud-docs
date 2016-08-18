@@ -20,8 +20,7 @@ Hot Sending Tx Request
         **Parameters**:
             * ``coin_code`` *(optional)* *(string)* - coin type, for example *(BTC)*.
             * ``user_tx_no`` *(required)* *(string)* - tx id in vweb.
-            * ``address`` *(required)* *(string)* - transfer to address.
-            * ``value`` *(required)* *(long)* - amount of satoshi.
+            * ``outs`` *(required)* *(string)* - transfer to address and value.
             * ``vc_code`` *(required)* *(string)* - the sign of unsigntx.
             * ``is_dynamic_fee`` *(optional)* *(int)* - whether to charge the dynamic fee.
             * ``c_id`` *(required)* *(int)* - the channel id of sms to sign.
@@ -29,6 +28,7 @@ Hot Sending Tx Request
         .. note::
             * ``coin_code`` default *(BTC)*.
             * ``user_tx_no`` unique in vweb.
+            * ``outs`` support multiple addresses.for example "1NbbvxBYxGGCBhaM8mow1HFWA7dB5yukmY,2000;1XaavxBYxGGCBhaM8mow1HFWA7dB5yukmY,3000";
             * ``is_dynamic_fee`` 0 no  1 yes  default 1.
             * ``vc_code`` and ``c_id`` is use to ensure security  .
 
@@ -49,8 +49,7 @@ Hot Sending Tx Detail
                     "coin_code": "BTC",
                     "user_tx_no": "8",
                     "is_dynamic_fee": 1,
-                    "value": 10000,
-                    "address": "1NbbvxBYxGGCBhaM8mow1HFWA7dB5yukmY"
+                    "outs": "1NbbvxBYxGGCBhaM8mow1HFWA7dB5yukmY,2000;1XaavxBYxGGCBhaM8mow1HFWA7dB5yukmY,3000"
                 },
                 "vc_code": "HxAK9Q4CdcKzypai9Wk4gjYwC8jeuHq9UWunAvyzRbO1a4PyZecmYF0WS5kdtBH80/0EtSETjurHyRctkCFsxVk=",
                 "request_at": "2016-07-31T04:52:13",
