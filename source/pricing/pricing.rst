@@ -17,6 +17,7 @@ The basic pricing model is designed to scale with your business :
     * Real-time fee reporting
 * Volume based discounts available
     * ChainCloud offers everything needed to run a business at scale
+    * You can contact our sales for more details
 
 Account Pricing
 ================================================================================
@@ -48,4 +49,6 @@ Other pricing models :
     * Modify V-Device phone no
     * Modify Cold-Receiving Settlement HD Account (Bitpie Account)
 * You should buy an Android phone (with 2 sim-cards support), and pay the phone/sms bills yourself.
+* Currently, prepaid 2 BTCs are needed to activate your ChainCloud account, and these bitcoins will be used to pay the future bills of your ChainCloud usage (transaction fees and others).
+    * After contacting our sales, you should pay 2 BTCs to 1Bitpie7nzdqcsHWYMVi4ePuY88hF2jr7E.
 
