@@ -246,7 +246,7 @@ Tx List
         **Arguments**:
             * ``tx_hash`` *(optional)* *(str)* - from which tx_hash to retrieve txs.
 
-        .. note:: txs are ordered by tx_time in desc. if tx_hash is not provided, it means to retrieve the latest 20 txs. if provided, then returns 20 txs since this tx_hash.
+        .. note:: txs are ordered by tx_time in asc. if tx_hash is not provided, it means to retrieve the earlist 20 txs. if provided, then returns 20 txs since this tx_hash. The is_mine field in inputs and outputs list should be used to determine whether this input's or output's address belongs to the user.
 
 Tx Detail
 ---------
