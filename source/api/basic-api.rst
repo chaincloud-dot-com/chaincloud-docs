@@ -142,25 +142,104 @@ Tx List
 
             [
                 {
-                    "tx_hash": "a8e4f0a01a89c6335369b70d8272133164c0d29f91ac9eceddee708eb77347b1",
-                    "tx_at": "2016-07-27T09:07:39",
-                    "confirm_at": "2016-07-27T09:55:47",
-                    "confirmation": 869,
-                    "value": -20000
-                },
+                    "tx_hash": "d79deb9419b3cf62f08badef456a75396400bfe78cc38ed5ee6cbba27caf57e6", 
+                    "confirmation": 3716, 
+                    "confirm_at": "2016-08-04T12:32:27", 
+                    "value": 500000, 
+                    "tx_at": "2016-08-04T12:22:20", 
+                    "inputs": [
+                        {
+                            "is_mine": false, 
+                            "value": 620008, 
+                            "prev_out_sn": 1, 
+                            "sn": 0, 
+                            "address": "1AdGeNK9aorEBmsgFtbu1ENZbPizxnHfeZ", 
+                            "prev_tx_hash": "00ba3370e8c030e42cb43e9861d3d393dfa3e4e157c1ac2e8e5c5f69bda7e4c4"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "status": 1, 
+                            "is_mine": true, 
+                            "sn": 0, 
+                            "value": 500000, 
+                            "address": "1BhtAhTmXu98JYQW9V4vvKAa6NJ1A7npJ1"
+                        }, 
+                        {
+                            "status": 1, 
+                            "is_mine": false, 
+                            "sn": 1, 
+                            "value": 100008, 
+                            "address": "1KU9Vh4HzfYJMBo4QW3ytLdrd9bz6ghJSj"
+                        }
+                    ]
+                }, 
+
                 {
-                    "tx_hash": "50369615dac8c30ac629d567bac457de59c8aa39946856bf79269b92c83478c0",
-                    "tx_at": "2016-07-27T05:48:11",
-                    "confirm_at": "2016-07-27T05:22:22",
-                    "confirmation": 891,
-                    "value": 90000
-                },
+                    "tx_hash": "576aa53f24b2aaa12e35583caf7fe32f9de8569e440058b1468cb42b417cc48f", 
+                    "confirmation": 3715, 
+                    "confirm_at": "2016-08-04T12:37:07", 
+                    "value": -110000, 
+                    "tx_at": "2016-08-04T12:24:34", 
+                    "inputs": [
+                        {
+                            "is_mine": true, 
+                            "value": 500000, 
+                            "prev_out_sn": 0, 
+                            "sn": 0, 
+                            "address": "1BhtAhTmXu98JYQW9V4vvKAa6NJ1A7npJ1", 
+                            "prev_tx_hash": "d79deb9419b3cf62f08badef456a75396400bfe78cc38ed5ee6cbba27caf57e6"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "status": 0, 
+                            "is_mine": false, 
+                            "sn": 0, 
+                            "value": 100000, 
+                            "address": "1Bitpie7nzdqcsHWYMVi4ePuY88hF2jr7E"
+                        }, 
+                        {
+                            "status": 1, 
+                            "is_mine": true, 
+                            "sn": 1, 
+                            "value": 390000, 
+                            "address": "1M5CKnUywtfQBicDWFfbRQU7fVUACc71oT"
+                        }
+                    ]
+                }, 
+
                 {
-                    "tx_hash": "1c56ac562ad216f3fe68e8142a7f28f4889886065cc77745af4c9ddaee17c6e1",
-                    "tx_at": "2016-07-27T02:21:53",
-                    "confirm_at": "2016-07-27T02:31:34",
-                    "confirmation": 908,
-                    "value": 10000
+                    "tx_hash": "f4f30ddf3379b30b49d1128989949e7e8d2754430fef56cb9e78e0d006371933", 
+                    "confirmation": 3715, 
+                    "confirm_at": "2016-08-04T12:37:07", 
+                    "value": -110000, 
+                    "tx_at": "2016-08-04T12:26:08", 
+                    "inputs": [
+                        {
+                            "is_mine": true, 
+                            "value": 390000, 
+                            "prev_out_sn": 1, 
+                            "sn": 0, 
+                            "address": "1M5CKnUywtfQBicDWFfbRQU7fVUACc71oT", 
+                            "prev_tx_hash": "576aa53f24b2aaa12e35583caf7fe32f9de8569e440058b1468cb42b417cc48f"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "status": 0, 
+                            "is_mine": false, 
+                            "sn": 0, 
+                            "value": 100000, 
+                            "address": "1Bitpie7nzdqcsHWYMVi4ePuY88hF2jr7E"
+                        }, 
+                        {
+                            "status": 1, 
+                            "is_mine": true, 
+                            "sn": 1, "value": 280000, 
+                            "address": "13iUXsqRuuEXJGUtr9KKopsSnDpBQtqEQM"
+                        }
+                    ]
                 }
             ]
 
