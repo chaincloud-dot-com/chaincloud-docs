@@ -23,3 +23,7 @@ HSM means Hardware Security Module. We have specially designed two HSM modules t
 
 * HSM-Cold
 
+V-Device
+===============================================================================
+
+V-Device is like a “2-Step Verification” Device for you. It is an Android device running with ChainCloud-V (an Open Source App developped by us).
