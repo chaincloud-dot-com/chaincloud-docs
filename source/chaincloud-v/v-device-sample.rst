@@ -9,12 +9,12 @@ In following docs, we will describe how to build up a web-service that can be us
 V-Test
 ================================================================================
 
-Get A Tx To Be Send
+Get A Tx To Be Sended
 ----------------------
 
     **GET /api/v1/open/vtest**
 
-        Get A Tx To Be Send.
+        Get A Tx To Be Sended.
 
         **Example response**::
 
@@ -46,3 +46,63 @@ Update A Tx Status
 
         .. note::
             * ``tx_hash`` if hash is null, it is failed, else success.
+
+Get A Batch Addresses To Be Checked
+----------------------
+
+    **GET /api/v1/open/batch**
+
+        Get A Batch Address To Be Checked.
+
+        **Example response**::
+
+            {
+                "batch_no": 0,
+                "address_list": [
+                    {
+                        "index": 0,
+                        "address": "1B4qK6KTzWCnbNcx4WDYR99KfVRsU2zDcN"
+                    },
+                    {
+                        "index": 1,
+                        "address": "1Mzvo2UkBnEpQC8xkui23mYQQeL8NREqrJ"
+                    },
+                    "......",
+                    {
+                        "index": 998,
+                        "address": "1KqPMBXtmvKkLe9TCHzVR4New3c5xkVgge"
+                    },
+                    {
+                        "index": 999,
+                        "address": "1BN69Mnr48BDVgwXV7cKBBsCJ2iB6EHxUa"
+                    }
+                ],
+                "address_type": 1
+            }
+
+        .. note::
+            * ``batch_no`` batch number that start from 0.
+            * ``address_list`` to be checked address, 1000 in all.
+            * ``address_type`` 1->HOT SEND ADDRESS 2->COLD RECEIVE ADDRESS.
+
+Update A Batch Addresses Status
+----------------------
+
+    **POST /api/v1/open/batch**
+
+        Update A Batch Addresses Status
+
+        **Example response**::
+
+            {
+                "result": true
+            }
+
+        **Parameters**:
+            * ``batch_no`` *(required)* *(int)* - batch number that start from 0.
+            * ``status`` *(required)* *(int)* - 2->SUCCESS 3->FAILED
+            * ``type`` *(required)* *(int)* - 1->HOT SEND ADDRESS 2->COLD RECEIVE ADDRESS.
+
+        .. note::
+            * ``status`` check result
+            * ``type`` address type
