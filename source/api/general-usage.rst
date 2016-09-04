@@ -11,7 +11,7 @@ Access Method
 
 Domain: **chaincloud-api.getcai.com** (api.chaincloud.com in the future)
 
-All API should be accessed with ``token`` (in HTTP header), and you can apply for your API token `here <https://bitcoin.org>`_.
+All API should be accessed with ``token`` (in HTTP header), and you can apply for your API token `here <http://chaincloud.com>`_.
 
 Access Samples
 ================================================================================
