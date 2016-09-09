@@ -1,7 +1,7 @@
 .. _chaincloud-v:
 
 ********************************************************************************
-chaincloud-v
+App: chaincloud-v
 ********************************************************************************
 
 The chaincloud-v is an open source software running on the V-Device, and automatically ensures the security.
