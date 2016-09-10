@@ -10,7 +10,3 @@ HSM-Cold has a built-in SMS module, so it can communicate verification data with
 
 Currently, we support two different SIM cards, and can be used with two different carriers for Fail-Safe configuration.
 
-Hello
-================================================================================
-Hello
-
