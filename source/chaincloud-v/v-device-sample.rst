@@ -25,7 +25,7 @@ Get A Tx To Be Sended
             }
 
         .. note::
-            * ``vtest_info`` encrypt with aes. decryption is {"outs":"1NbbvxBYxGGCBhaM8mow1HFWA7dB5yukmY,10000;1MCs9SZwLg9JvLo6pzvVBWtmSV1dakwyM1,10000","dynamic":0}
+            * ``vtest_info`` encrypt with aes. decryption is {"outs":"1NbbvxBYxGGCBhaM8mow1HFWA7dB5yukmY,10000;1MCs9SZwLg9JvLo6pzvVBWtmSV1dakwyM1,10000","dynamic":0}, passwd is "20160721". The unit of value is in satoshi, the minimum is 10000 satoshi.
 
 Update A Tx Status
 ----------------------
@@ -41,7 +41,7 @@ Update A Tx Status
             }
 
         **Parameters**:
-            * ``vtest_id`` *(required)* *(string)* - coin type, for example *(BTC)*.
+            * ``vtest_id`` *(required)* *(string)* - vtest_id.
             * ``tx_hash`` *(optional)* *(string)* - tx hash.
 
         .. note::
