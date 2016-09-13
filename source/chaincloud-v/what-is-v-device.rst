@@ -20,3 +20,4 @@ You can also develop your own version of ChainCloud-V (because it is Open Source
 * Strategies of sending frequency;
 * Special encryption strategy between your website/service and your V Device;
 
+V-Device should always be powered on (connect to the charger), and you should keep chaincloud-v running. The chaincloud-v will periodically establish new channel with HSM-Cold, and all new data will be secured by this newly created channel. If you have powered off the V-Device or exit the chaincloud-v, next time when you want to use V-Device for verification, you have to wait for the new channel to be created (normally midnight). If you want to use V-Device immediately, you can try to contact our technical support.
