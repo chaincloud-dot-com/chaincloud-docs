@@ -26,6 +26,7 @@ Get A Tx To Be Sended
 
         .. note::
             * ``vtest_info`` encrypt with aes. decryption is {"outs":"1NbbvxBYxGGCBhaM8mow1HFWA7dB5yukmY,10000;1MCs9SZwLg9JvLo6pzvVBWtmSV1dakwyM1,10000","dynamic":0}, passwd is "20160721". The unit of value is in satoshi, the minimum is 10000 satoshi.
+            * returns NULL if data is empty.
 
 Update A Tx Status
 ----------------------
@@ -84,6 +85,7 @@ Get A Batch Addresses To Be Checked
             * ``batch_no`` batch number that start from 0.
             * ``address_list`` to be checked address, 1000 in all.
             * ``address_type`` 1->HOT SEND ADDRESS 2->COLD RECEIVE ADDRESS.
+            * returns NULL if data is empty.
 
 Update A Batch Addresses Status
 ----------------------
