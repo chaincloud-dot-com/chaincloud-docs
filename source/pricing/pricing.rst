@@ -49,6 +49,5 @@ Other pricing models :
     * Modify V-Device phone no
     * Modify Cold-Receiving Settlement HD Account (Bitpie Account)
 * You should buy an Android phone (with 2 sim-cards support), and pay the phone/sms bills yourself.
-* Currently, prepaid 2 BTCs are needed to activate your ChainCloud account, and these bitcoins will be used to pay the future bills of your ChainCloud usage (transaction fees and others).
-    * After contacting our sales, you should pay 2 BTCs to 1Bitpie7nzdqcsHWYMVi4ePuY88hF2jr7E.
+* Enterprise users need to make a 10 BTC returnable deposit to activate ChainCloud account, and these bitcoins can not be used to pay the bill of ChainCloud service(transaction fees and others).
 
