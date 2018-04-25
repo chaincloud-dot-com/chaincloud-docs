@@ -51,6 +51,6 @@ Other pricing models :
 
 * You should buy an Android phone (with 2 sim-cards support), and pay the phone/sms bills yourself.
 
-* Currently,  10 BTCs are needed to be paid by the enterprise user to activate the ChainCloud account, and this 10-btc payment is not deductable in paying the future expenses for the ChainCloud services (including transaction fees and others,etc.).
+* Currently,  10 BTCs(nonrefundable) are needed to be paid by the enterprise user to activate the ChainCloud account, and this 10-btc payment is not deductable in paying the future expenses for the ChainCloud services (including transaction fees and others,etc.).
     * If you decided to start your ChianCloud service after contacting our managers, you should pay 10 BTCs to the following address: 1Bitpie7nzdqcsHWYMVi4ePuY88hF2jr7E.
 
